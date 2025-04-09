@@ -2,7 +2,7 @@
   "name": "code4food",
   "displayName": "code4food",
   "description": "Feed your vistual pet by coding",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -13,6 +13,11 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/webpnk/vsc-code4food"
+  },
+  "publisher": "webpnk",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
